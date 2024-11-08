@@ -4,11 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import FileNotFound from './Components/404';
+import Imgshow from './Images/Imgshow';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-    <App />
+    {/* <App /> */}
+    <Imgshow />
     
      {/* <FileNotFound /> */}
   </>
